@@ -1,5 +1,6 @@
 # MIST4610Project1
 
+Team Members: Justus Nour, Sophie Yoo
 Our group chose to design a database for a hospital management system that helps organize and track patient care, staff activity, and billing information. 
 The goal of this database is to store and manage key information about patients, doctors, appointments, treatments, prescriptions, and financial transactions 
 in a way that supports hospital operations and managerial decision-making. The database allows the hospital to record basic details about patients, insurance providers, 
