@@ -27,45 +27,45 @@ Beyond daily appointments, doctors can issue Prescriptions or order Lab Tests fo
 ## SQL Queries
 Simple Queries
 1. Query 1 shows how many patients the hospital has for each blood type, excluding those with type B or B+. The results are grouped by blood type and ordered by the number of patients in descending order.
-
+![Q1](https://github.com/sophieyoo/MIST4610Project1/blob/main/query1.png)
 This query is useful for medical staff to understand the distribution of blood types among patients, which can help in planning for blood supply, managing inventory, and ensuring that the most needed blood types are available for transfusions and emergencies.
 
 2. Query 2 lists each patient’s ID, name, and the number of medical records they have.
-
+![Q2](https://github.com/sophieyoo/MIST4610Project1/blob/main/query2.png)
 Query 2 allows the hospital to identify which patients have the most medical history or frequent visits. This helps staff recognize patients who may need more ongoing care, follow-ups, or specialized attention. Over time, this information could support improved patient tracking systems or wellness programs for those with frequent hospital visits.
 
 3. Query 3 lists the first name, last name, and drug name for each patient who is prescribed medication that must be taken once daily.
-
+![Q3](https://github.com/sophieyoo/MIST4610Project1/blob/main/query3.png)
 This query helps hospital staff quickly see which patients are on daily medications, making it easier to keep track of their treatment routines. This allows doctors and nurses to provide timely reminders, check-ins, and support to help patients stay consistent with their prescriptions, improving their overall care and recovery experience.
 
 4. Query 4 lists the ID, first name, last name, and department ID of all doctors who work in the Cardiology department.
-
+![Q4](https://github.com/sophieyoo/MIST4610Project1/blob/main/query4.png)
 This query helps hospital staff quickly see which doctors are part of the Cardiology team. By having this list, it becomes easier to plan schedules, organize department meetings, and make sure that patients who need heart-related care are assigned to the right specialists. It also helps improve coordination within the department, ensuring that doctors can work together efficiently to provide the best possible care for their patients.
 
 Complex Queries
 
 5. Query 5 lists each doctor's name, their department, and the number of direct reports they have, only showing the doctors who are supervisors with at least two other doctors reporting to them.
-
+![Q5](https://github.com/sophieyoo/MIST4610Project1/blob/main/query5.png)
 This query enables hospital managers to easily identify which doctors are responsible for supervising others. Knowing who the supervisors are makes it easier to understand how the hospital’s teams are structured, plan schedules, and keep departments running smoothly. It also helps ensure that doctors managing larger teams get the support and resources they need to lead effectively and provide the best care possible.
 
 6. Query 6 shows which hospital departments generate the highest average appointment bill amounts, and how many appointments they have handled. 
-
+![Q6](https://github.com/sophieyoo/MIST4610Project1/blob/main/query6.png)
 Query 6 allows a hospital administrator to identify which departments are the most profitable or the most frequently used. This can help the hospital justify an increase in the number of staff as well as better resource allocations to high earning departments. On the other side, low revenue departments will be identified and reviewed for cost-efficiency improvements.
 
 7. Query 7 shows which patients currently have unpaid bills, and which department they were treated in.
-
+![Q7](https://github.com/sophieyoo/MIST4610Project1/blob/main/query7.png)
 Query 7 allows a hospital administrator to track patients that have outstanding balances by department. Departments with high unpaid revenue can be identified and action can be taken to lessen the number of unpaid bills.
 
 8. Find the cost of the patient's bill and organize it based on their insurance provider
-
+![Q8](https://github.com/sophieyoo/MIST4610Project1/blob/main/query8.png)
 Query 8 allows a hospital administrator to access the cost of a patient’s bill to then organize that information based on their insurance provider.
 
 9. List the patient name and their diagnoses organized by their blood type and sum the number of diagnoses
-
+![Q9](https://github.com/sophieyoo/MIST4610Project1/blob/main/query9.png)
 Query 9 allows a hospital administrator to organize patients and their diagnoses by their blood type. It then sums the number of diagnoses to see which is most and least common.
 
 10. Query 10 lists the doctors name, their patient count, and the total number of prescriptions given out
-
+![Q10](https://github.com/sophieyoo/MIST4610Project1/blob/main/query10.png)
 Query 10 shows which doctors write the most prescriptions per patient on average.
 
 ## Database Information
