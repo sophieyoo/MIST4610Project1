@@ -39,7 +39,7 @@ Beyond daily appointments, doctors can issue Prescriptions or order Lab Tests fo
 ![DB Table](https://github.com/sophieyoo/MIST4610Project1/blob/main/databasetable.png)
 
 ## SQL Queries
-Simple Queries
+### Simple Queries
 1. Query 1 shows how many patients the hospital has for each blood type, excluding those with type B or B+. The results are grouped by blood type and ordered by the number of patients in descending order.
 ![Q1](https://github.com/sophieyoo/MIST4610Project1/blob/main/query1.png)
 This query is useful for medical staff to understand the distribution of blood types among patients, which can help in planning for blood supply, managing inventory, and ensuring that the most needed blood types are available for transfusions and emergencies.
@@ -56,7 +56,7 @@ This query helps hospital staff quickly see which patients are on daily medicati
 ![Q4](https://github.com/sophieyoo/MIST4610Project1/blob/main/query4.png)
 This query helps hospital staff quickly see which doctors are part of the Cardiology team. By having this list, it becomes easier to plan schedules, organize department meetings, and make sure that patients who need heart-related care are assigned to the right specialists. It also helps improve coordination within the department, ensuring that doctors can work together efficiently to provide the best possible care for their patients.
 
-Complex Queries
+### Complex Queries
 
 5. Query 5 lists each doctor's name, their department, and the number of direct reports they have, only showing the doctors who are supervisors with at least two other doctors reporting to them.
 ![Q5](https://github.com/sophieyoo/MIST4610Project1/blob/main/query5.png)
@@ -86,6 +86,6 @@ Query 10 shows which doctors write the most prescriptions per patient on average
 
 Name of the database: ns_Group7
 
-Additional information: Each query written above is marked in the database using a stored procedure written by me which can be called using this format: CALL JN_Q1; To call the others, replace Q1 with Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9 OR Q10
+Additional information: Each query written above is marked in the database using a stored procedure written by me which can be called using this format: CALL TP_Q1; To call the others, replace Q1 with Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9 OR Q10
 
 
