@@ -36,7 +36,7 @@ Beyond daily appointments, doctors can issue Prescriptions or order Lab Tests fo
 ![D7](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad7.png)
 
 ## Database Table
-![DB Table]()
+![DB Table](https://github.com/sophieyoo/MIST4610Project1/blob/main/databasetable.png)
 
 ## SQL Queries
 Simple Queries
