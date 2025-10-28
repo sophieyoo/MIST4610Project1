@@ -22,8 +22,10 @@ Our data model represents how a real hospital functions day to day, capturing th
 Doctors are organized within Departments such as Cardiology, Pediatrics, or Neurology. A department can have many doctors, and each doctor belongs to one department, forming a one-to-many relationship. Within this, some doctors may supervise others, creating a recursive relationship that reflects real hospital hierarchies. Each department also has one designated department head, connecting a one-to-one relationship between Department and Doctor. Departments are also responsible for multiple Rooms, which represent hospital spaces where patients stay during treatment. Because one room can host several patients over time, this creates a one-to-many relationship between Room and Patient.
 Beyond daily appointments, doctors can issue Prescriptions or order Lab Tests for their patients. These depend on both the patient and doctor, forming many-to-many relationships, since multiple patients can receive prescriptions or lab tests from multiple doctors. Altogether, this model mirrors the complex but organized structure of a hospital—how patients move through departments, meet with doctors, receive treatments, get billed, and stay in rooms. By capturing all these interactions, the data model helps ensure that every piece of information works together to support efficient and effective patient care.
 ![Data Model](https://github.com/sophieyoo/MIST4610Project1/blob/main/database.png)
+
 ## Relationships
 ![Relationships](https://github.com/sophieyoo/MIST4610Project1/blob/main/relationships.png)
+
 ## Data Dictionary
 ![D1](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad1.png)
 ![D2](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad2.png)
@@ -32,6 +34,10 @@ Beyond daily appointments, doctors can issue Prescriptions or order Lab Tests fo
 ![D5](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad5.png)
 ![D6](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad6.png)
 ![D7](https://github.com/sophieyoo/MIST4610Project1/blob/main/datad7.png)
+
+## Database Table
+![DB Table]()
+
 ## SQL Queries
 Simple Queries
 1. Query 1 shows how many patients the hospital has for each blood type, excluding those with type B or B+. The results are grouped by blood type and ordered by the number of patients in descending order.
